@@ -10,7 +10,7 @@ def reverse_each_word(words)
 end
 
 def reverse_each_word(words)
-    new_word.collect do |word|
+    words.collect do |word|
         word.reverse()
     end
 end
