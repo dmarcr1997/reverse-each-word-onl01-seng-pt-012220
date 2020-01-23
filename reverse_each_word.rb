@@ -8,6 +8,7 @@ def reverse_each_word(words)
       else
         rev_words << "#{word.reverse()} "  
       end
+      count+=1
     end
     return rev_words
 end
