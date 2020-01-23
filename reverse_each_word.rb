@@ -13,6 +13,6 @@ def reverse_each_word(words)
     rev_word = ""
     new_word = words.split(" ")
     new_word.collect do |word|
-        rev_word <<  "#{word.reverse()}
+        rev_word <<  "#{word.reverse()}"
     end
 end
