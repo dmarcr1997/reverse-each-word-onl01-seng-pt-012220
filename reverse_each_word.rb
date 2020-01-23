@@ -1,5 +1,5 @@
 def reverse_each_word(words)
-    rev_words = " "
+    rev_words = ""
     new_word = words.split(" ")
     last = new_word.pop()
     new_word.each do |word|
