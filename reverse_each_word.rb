@@ -12,7 +12,7 @@ end
 def reverse_each_word(words)
     rev_word =""
     new_words = words.split(" ")
-    last = new_word.pop()
+    last = new_words.pop()
     new_words.collect do |word|
         rev_word << "#{word.reverse()} "
     end
