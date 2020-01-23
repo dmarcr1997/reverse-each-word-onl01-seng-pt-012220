@@ -1,12 +1,12 @@
 def reverse_each_word(words)
     rev_words = ""
-    count = words.count()
+    count = 0
     new_word = words.split(" ")
-    new_word.each_with_index do |item, index|
-      if index == count -1
-        rev_words << "#{item.reverse()}"  
+    new_word.each do |word|
+      if count = word.count()-1
+        rev_words << "#{word.reverse()} "  
       else
-        rev_words << "#{item.reverse()} "  
+        rev_words << "#{word.reverse()} "  
       end
     end
     return rev_words
