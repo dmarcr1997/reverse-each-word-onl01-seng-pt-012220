@@ -10,10 +10,10 @@ def reverse_each_word(words)
 end
 
 def reverse_each_word(words)
-    
+    rev_word =""
     new_words = words.split(" ")
     new_words.collect do |word|
-        word.reverse()
+        rev_word << word.reverse()
     end
-   
+    return rev_word   
 end
