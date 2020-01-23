@@ -14,5 +14,5 @@ def reverse_each_word(words)
     new_words.collect do |word|
         word.reverse()
     end
-    return new_words
+    return new_words.
 end
